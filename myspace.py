@@ -1,3 +1,29 @@
+#Create Myspace (ALWAYS ASK QUESTIONS DURING TECHNICAL)
+#user profile to sign up for a account
+#first and last name, email address, phone number, password, date of birth, user namne) 
+#complex password (alpha numeric only, no special characters)
+#can sign in with either email or user name
+#after login, print out Welcome NAME to Myspace! print all the info.
+
+#STRATEGY FIRST BEFORE CODING 
+## Display Introduction when accessing myspace.com
+## Ask if you are signing in or signing up
+## If user wants to sign up, then ask questions to obtain info
+## if user wants to sign in, then ask for email address/user name and password. 
+## If it is correct, Display "Welcome to your user profile
+## If email address/password is wrong, output invalid credentials 
+
+#REQUIREMENTS** 
+#Enter colon with all questions (DONE)
+#line 36 need to accept user name and email. (DONE)
+#when you put wrong credentials, please ask again to sign in. (loops)
+#username alphanumeric 
+#email has @ and not .com
+#password is not longer thatn 10 characters, if it is 10 characters, ask again
+#after login, print out Welcome NAME to Myspace! print all the info. (DONE)
+#next week deadline. 
+
+
 print("Welcome to Myspace! Please sign in or sign up below")
 signIn_choice = input("Would you like to sign in or sign up? ")
 
